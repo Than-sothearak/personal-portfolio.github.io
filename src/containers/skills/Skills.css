@@ -1,0 +1,55 @@
+.skill-container {
+    width: 100%;
+    background-color: rgb(16, 184, 105);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-text-container {
+    width: 1200px;
+   
+    background-color:  rgb(16, 184, 105);
+    color: bisque;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.skill-text-container ul {
+   
+    
+    color: bisque;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 0;
+    
+}
+.skill-ul {
+    display: block;
+}
+@media only screen and (max-width: 1200px) {
+    .skill-text-container {
+        width: 800px;
+        color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .skill-text-container {
+        width: 480px;
+        color: white;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+  }
