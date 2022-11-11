@@ -17,23 +17,20 @@
 .footer-text-container p {
  text-align: center;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1048px) {
     .footer-text-container {
-        width: 800px;
-        color: white;
-        position: relative;
+        width: 100%; 
         margin-left: auto;
         margin-right: auto;
     
     }
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 670px) {
     .footer-text-container {
-        width: 480px;
-        color: white;
-        position: relative;
+        width: 100%; 
         margin-left: auto;
         margin-right: auto;
+
     
     }
   }

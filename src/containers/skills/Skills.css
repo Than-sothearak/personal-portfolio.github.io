@@ -33,23 +33,39 @@
 .skill-ul {
     display: block;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1048px) {
     .skill-text-container {
-        width: 800px;
-        color: white;
-        position: relative;
+        width: 100%; 
         margin-left: auto;
         margin-right: auto;
     
     }
-  }
-  @media only screen and (max-width: 900px) {
-    .skill-text-container {
-        width: 480px;
-        color: white;
-        position: relative;
+    .skill-text-container li{
+        width: 100%; 
+        box-sizing: border-box;
+        padding-left: 30px;
         margin-left: auto;
         margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 670px) {
+    .skill-text-container {
+        width: 100%; 
+        margin-left: auto;
+        margin-right: auto;;
     
+    }
+    .skill-text-container li{
+        width: 100%; 
+        box-sizing: border-box;
+        padding-left: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill-text-container h1{ 
+        width: 100%; 
+        box-sizing: border-box;
+        padding-left: 30px;
+        margin-right: auto;
     }
   }

@@ -31,17 +31,24 @@ li {
 }
 
 li a {
-    margin-right: 20px;
+    margin-right: 10px;
     text-decoration: none;
     color: white;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1048px) {
     .app__navbar {
-      width: 600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
     }
   }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
     .app__navbar {
-      width: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
     }
+
   }
