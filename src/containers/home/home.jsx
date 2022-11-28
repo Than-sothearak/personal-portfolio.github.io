@@ -60,7 +60,6 @@ const Home = () => {
        batterflyArray.push(new Batterfly());
     }
 
-    console.log(batterflyArray);
     
 
     function animate () {
